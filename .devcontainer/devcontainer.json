@@ -1,6 +1,8 @@
 {
-    "name": "Yo - DeepLearning WebCams",
+    "name": "Yo",
     "dockerFile": "Dockerfile",
+    //"workspaceMount": "source=remote-workspace,target=/workspace,type=volume",
+    //"workspaceFolder": "/workspace",
 
     // Use 'settings' to set *default* container specific settings.json values on container create. 
     "settings": {
@@ -20,5 +22,4 @@
         
     // Comment out the next line to run as root instead.
     "remoteUser": "node"
-
 }
