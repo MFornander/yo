@@ -1,0 +1,14 @@
+{
+  "name": "docker_yo_app",
+  "version": "0.0.0",
+  "description": "Easy webcam detections using Deep Learning",
+  "author": "Mattias Fornander <mattias.fornander@gmail.com>",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
